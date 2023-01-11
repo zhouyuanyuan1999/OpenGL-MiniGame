@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32C85F04244530C100FAA3F8 /* GlslWaves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C85EF0244530C100FAA3F8 /* GlslWaves.cpp */; };
+		32C85F05244530C100FAA3F8 /* EduPhong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C85EF2244530C100FAA3F8 /* EduPhong.cpp */; };
+		32C85F06244530C100FAA3F8 /* LinearR3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C85EF6244530C100FAA3F8 /* LinearR3.cpp */; };
+		32C85F07244530C100FAA3F8 /* GlGeomSphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C85EF8244530C100FAA3F8 /* GlGeomSphere.cpp */; };
+		32C85F08244530C100FAA3F8 /* WaterPlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C85EF9244530C100FAA3F8 /* WaterPlane.cpp */; };
+		32C85F09244530C100FAA3F8 /* LinearR4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C85EFC244530C100FAA3F8 /* LinearR4.cpp */; };
+		32C85F0A244530C100FAA3F8 /* WavePhongData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C85EFD244530C100FAA3F8 /* WavePhongData.cpp */; };
+		32C85F0B244530C100FAA3F8 /* GlShaderMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C85EFF244530C100FAA3F8 /* GlShaderMgr.cpp */; };
+		32C85F0C244530C100FAA3F8 /* GlGeomBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C85F02244530C100FAA3F8 /* GlGeomBase.cpp */; };
+		32C85F0F244531CD00FAA3F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C85F0E244531CD00FAA3F8 /* OpenGL.framework */; };
+		32C85F11244531EC00FAA3F8 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C85F10244531EC00FAA3F8 /* libGLEW.2.1.0.dylib */; };
+		32C85F13244531FC00FAA3F8 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C85F12244531FC00FAA3F8 /* libglfw.3.3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32C85EE42445308300FAA3F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32C85EE62445308300FAA3F8 /* Waves */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Waves; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C85EF0244530C100FAA3F8 /* GlslWaves.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlslWaves.cpp; sourceTree = "<group>"; };
+		32C85EF1244530C100FAA3F8 /* EduPhong.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EduPhong.glsl; sourceTree = "<group>"; };
+		32C85EF2244530C100FAA3F8 /* EduPhong.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EduPhong.cpp; sourceTree = "<group>"; };
+		32C85EF3244530C100FAA3F8 /* GlShaderMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlShaderMgr.h; sourceTree = "<group>"; };
+		32C85EF4244530C100FAA3F8 /* EduPhong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EduPhong.h; sourceTree = "<group>"; };
+		32C85EF5244530C100FAA3F8 /* MathMisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathMisc.h; sourceTree = "<group>"; };
+		32C85EF6244530C100FAA3F8 /* LinearR3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinearR3.cpp; sourceTree = "<group>"; };
+		32C85EF7244530C100FAA3F8 /* WaterPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterPlane.h; sourceTree = "<group>"; };
+		32C85EF8244530C100FAA3F8 /* GlGeomSphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlGeomSphere.cpp; sourceTree = "<group>"; };
+		32C85EF9244530C100FAA3F8 /* WaterPlane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaterPlane.cpp; sourceTree = "<group>"; };
+		32C85EFA244530C100FAA3F8 /* GlslWaves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlslWaves.h; sourceTree = "<group>"; };
+		32C85EFB244530C100FAA3F8 /* GlGeomSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlGeomSphere.h; sourceTree = "<group>"; };
+		32C85EFC244530C100FAA3F8 /* LinearR4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinearR4.cpp; sourceTree = "<group>"; };
+		32C85EFD244530C100FAA3F8 /* WavePhongData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WavePhongData.cpp; sourceTree = "<group>"; };
+		32C85EFE244530C100FAA3F8 /* WavePhongData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavePhongData.h; sourceTree = "<group>"; };
+		32C85EFF244530C100FAA3F8 /* GlShaderMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlShaderMgr.cpp; sourceTree = "<group>"; };
+		32C85F00244530C100FAA3F8 /* GlGeomBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlGeomBase.h; sourceTree = "<group>"; };
+		32C85F01244530C100FAA3F8 /* LinearR3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearR3.h; sourceTree = "<group>"; };
+		32C85F02244530C100FAA3F8 /* GlGeomBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlGeomBase.cpp; sourceTree = "<group>"; };
+		32C85F03244530C100FAA3F8 /* LinearR4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearR4.h; sourceTree = "<group>"; };
+		32C85F0E244531CD00FAA3F8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		32C85F10244531EC00FAA3F8 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		32C85F12244531FC00FAA3F8 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../usr/local/Cellar/glfw/3.3.2/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C85EE32445308300FAA3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C85F13244531FC00FAA3F8 /* libglfw.3.3.dylib in Frameworks */,
+				32C85F11244531EC00FAA3F8 /* libGLEW.2.1.0.dylib in Frameworks */,
+				32C85F0F244531CD00FAA3F8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C85EDD2445308300FAA3F8 = {
+			isa = PBXGroup;
+			children = (
+				32C85EE82445308300FAA3F8 /* Waves */,
+				32C85EE72445308300FAA3F8 /* Products */,
+				32C85F0D244531CD00FAA3F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32C85EE72445308300FAA3F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32C85EE62445308300FAA3F8 /* Waves */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C85EE82445308300FAA3F8 /* Waves */ = {
+			isa = PBXGroup;
+			children = (
+				32C85EF2244530C100FAA3F8 /* EduPhong.cpp */,
+				32C85EF1244530C100FAA3F8 /* EduPhong.glsl */,
+				32C85EF4244530C100FAA3F8 /* EduPhong.h */,
+				32C85F02244530C100FAA3F8 /* GlGeomBase.cpp */,
+				32C85F00244530C100FAA3F8 /* GlGeomBase.h */,
+				32C85EF8244530C100FAA3F8 /* GlGeomSphere.cpp */,
+				32C85EFB244530C100FAA3F8 /* GlGeomSphere.h */,
+				32C85EFF244530C100FAA3F8 /* GlShaderMgr.cpp */,
+				32C85EF3244530C100FAA3F8 /* GlShaderMgr.h */,
+				32C85EF0244530C100FAA3F8 /* GlslWaves.cpp */,
+				32C85EFA244530C100FAA3F8 /* GlslWaves.h */,
+				32C85EF6244530C100FAA3F8 /* LinearR3.cpp */,
+				32C85F01244530C100FAA3F8 /* LinearR3.h */,
+				32C85EFC244530C100FAA3F8 /* LinearR4.cpp */,
+				32C85F03244530C100FAA3F8 /* LinearR4.h */,
+				32C85EF5244530C100FAA3F8 /* MathMisc.h */,
+				32C85EF9244530C100FAA3F8 /* WaterPlane.cpp */,
+				32C85EF7244530C100FAA3F8 /* WaterPlane.h */,
+				32C85EFD244530C100FAA3F8 /* WavePhongData.cpp */,
+				32C85EFE244530C100FAA3F8 /* WavePhongData.h */,
+			);
+			path = Waves;
+			sourceTree = "<group>";
+		};
+		32C85F0D244531CD00FAA3F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C85F12244531FC00FAA3F8 /* libglfw.3.3.dylib */,
+				32C85F10244531EC00FAA3F8 /* libGLEW.2.1.0.dylib */,
+				32C85F0E244531CD00FAA3F8 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C85EE52445308300FAA3F8 /* Waves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C85EED2445308300FAA3F8 /* Build configuration list for PBXNativeTarget "Waves" */;
+			buildPhases = (
+				32C85EE22445308300FAA3F8 /* Sources */,
+				32C85EE32445308300FAA3F8 /* Frameworks */,
+				32C85EE42445308300FAA3F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waves;
+			productName = Waves;
+			productReference = 32C85EE62445308300FAA3F8 /* Waves */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C85EDE2445308300FAA3F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = N/A;
+				TargetAttributes = {
+					32C85EE52445308300FAA3F8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 32C85EE12445308300FAA3F8 /* Build configuration list for PBXProject "Waves" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32C85EDD2445308300FAA3F8;
+			productRefGroup = 32C85EE72445308300FAA3F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32C85EE52445308300FAA3F8 /* Waves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C85EE22445308300FAA3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C85F05244530C100FAA3F8 /* EduPhong.cpp in Sources */,
+				32C85F0C244530C100FAA3F8 /* GlGeomBase.cpp in Sources */,
+				32C85F0B244530C100FAA3F8 /* GlShaderMgr.cpp in Sources */,
+				32C85F06244530C100FAA3F8 /* LinearR3.cpp in Sources */,
+				32C85F08244530C100FAA3F8 /* WaterPlane.cpp in Sources */,
+				32C85F0A244530C100FAA3F8 /* WavePhongData.cpp in Sources */,
+				32C85F04244530C100FAA3F8 /* GlslWaves.cpp in Sources */,
+				32C85F09244530C100FAA3F8 /* LinearR4.cpp in Sources */,
+				32C85F07244530C100FAA3F8 /* GlGeomSphere.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32C85EEB2445308300FAA3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		32C85EEC2445308300FAA3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		32C85EEE2445308300FAA3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32C85EEF2445308300FAA3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32C85EE12445308300FAA3F8 /* Build configuration list for PBXProject "Waves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C85EEB2445308300FAA3F8 /* Debug */,
+				32C85EEC2445308300FAA3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C85EED2445308300FAA3F8 /* Build configuration list for PBXNativeTarget "Waves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C85EEE2445308300FAA3F8 /* Debug */,
+				32C85EEF2445308300FAA3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32C85EDE2445308300FAA3F8 /* Project object */;
+}
